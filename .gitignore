@@ -1,0 +1,16 @@
+# virtual environments
+opsagent_env/
+venv/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
