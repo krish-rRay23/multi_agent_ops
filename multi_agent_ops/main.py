@@ -7,6 +7,10 @@ from agents.reviewer import ReviewerAgent
 from dotenv import load_dotenv
 
 load_dotenv()
+import os
+print("DEBUG: OPENAI_API_KEY =", os.getenv("OPENAI_API_KEY"))
+print("DEBUG: OPENAI_API_BASE =", os.getenv("OPENAI_API_BASE"))
+print("DEBUG: OPENAI_MODEL =", os.getenv("OPENAI_MODEL"))
 
 # Initialize agents
 planner = PlannerAgent().build()
